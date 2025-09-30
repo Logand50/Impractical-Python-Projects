@@ -1,8 +1,12 @@
-import sys, random
+"""Silly Name Generator. 
+I did not originally write this code. All credit goes to the original author(s)."""
 
-"""I did not originally write this code. All credit goes to the original author(s)."""
+import sys
+import random
+
 
 def main():
+    """Choose 2 names from tuples and combine them to print a silly name."""
     print("Welcome to the Psych 'Sidekick Name Picker.'\n")
     print("A name just like Sean would pick for Gus:\n\n")
 
@@ -21,7 +25,6 @@ def main():
              'Snorki', 'Soupcan Sam', 'Spitzitout', 'Squids', 'Stinky',
              'Storyboard', 'Sweet Tea', 'TeeTee', 'Wheezy Joe',
              "Winston 'Jazz Hands'", 'Worms')
-    
     last = ('Appleyard', 'Bigmeat', 'Bloominshine', 'Boogerbottom',
             'Breedslovetrout', 'Butterbaugh', 'Clovenhoof', 'Clutterbuck',
             'Cocktoasten', 'Endicott', 'Fewhairs', 'Gooberdapple', 'Goodensmith',
@@ -36,13 +39,12 @@ def main():
             'Turnipseed', 'Vinaigrette', 'Walkingstick', 'Wallbanger', 'Weewax',
             'Weiners', 'Whipkey', 'Wigglesworth', 'Wimplesnatch', 'Winterkorn',
             'Woolysocks')
-    
     while True:
         first_name = random.choice(first)
         last_name = random.choice(last)
 
         print("\n\n")
-        print("{} {}".format(first_name, last_name, file=sys.stderr))
+        print(f"{first_name} {last_name}", file=sys.stderr)
         print("\n\n")
 
         try_again = input("\n\nTry again? (Press Enter else n to quit)\n ")
