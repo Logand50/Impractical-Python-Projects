@@ -1,0 +1,10 @@
+1. Load a list of first names
+2. Load a list of last names
+3. Choose a first name at random
+4. Assign the first name to a variable
+5. Choose a last name at random
+6. Assign the last name to a variable
+7. Print the names to the screen in order and in red font
+7. Ask the user to quit or play again
+8. If user plays again: repeat
+	If user quits: end and exit

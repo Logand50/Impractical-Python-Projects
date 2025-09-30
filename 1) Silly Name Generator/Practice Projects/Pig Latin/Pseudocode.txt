@@ -1,0 +1,10 @@
+1. Take an input
+2. If word begine with a consonant 
+	Move the consonant to the end
+	Add "ay" to the end of the word
+3. If word begins with a vowel
+	Add "way" to the end of the word
+4. Print the words to the screen in red font
+5. Ask the user to quit or translate again
+6. If user translates again: repeat
+	If user quits: end and exit
