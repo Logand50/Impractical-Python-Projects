@@ -1,0 +1,4 @@
+Poor Man's Bar Chart
+1. Take a sentence as an input
+2. Save the letters from the sentence in a defaultdict
+3. Print the defaultdict bar chart of the letters 

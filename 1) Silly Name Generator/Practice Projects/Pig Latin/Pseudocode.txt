@@ -1,4 +1,5 @@
-1. Take an input
+Pig Latin
+1. Take a word input
 2. If word begine with a consonant 
 	Move the consonant to the end
 	Add "ay" to the end of the word
